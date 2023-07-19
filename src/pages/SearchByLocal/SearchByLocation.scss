@@ -1,0 +1,72 @@
+main {
+  padding-top: 2rem;
+  @media (max-width: 768px) {
+    .filter-section {
+      display: none;
+    }
+  }
+  .filter-section {
+    button {
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      margin-right: 1rem;
+      border: 1px solid #000000;
+      border-radius: 15px;
+      display: inline-block;
+      background: none;
+    }
+    button:active {
+      transform: scale(0.95);
+      background-color: #d3d3d3;
+    }
+  }
+
+  .row {
+    margin-top: 2rem;
+    .col-8 {
+      .left {
+        img {
+          width: 100%;
+        }
+      }
+      .right {
+        
+        .heart-icon {
+          width: 3rem;
+          height: 3rem;
+          color: #000000;
+          cursor: pointer;
+        }
+        p {
+          text-align: end;
+          font-size: 2rem;
+          span {
+            font-weight: 800;
+          }
+        }
+      }
+    }
+    .map-container {
+      height: 100vh;
+      .mapboxgl-map {
+        cursor: pointer;
+        .mapboxgl-control-container {
+          display: none;
+        }
+        .mapboxgl-children {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .room-list{
+    width: 100%;
+  }
+  .map-container {
+    display: none;
+  }
+}
+

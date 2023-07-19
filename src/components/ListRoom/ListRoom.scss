@@ -1,0 +1,39 @@
+.list-room-container {
+    width: 80%;
+    margin-top: 5rem;
+
+    .list-room-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        @media screen and (max-width: 768px){
+        grid-template-columns: repeat(2, 1fr);
+        }
+   
+        .card {
+
+            border: none;
+            cursor: pointer;
+            height: 100%;
+
+            .card-header {
+                border: none;
+                background-color: #fff;
+                min-height: 100px;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 10px;
+                    height: 150px;
+                }
+            }
+
+            .card-body {
+                .room-title {}
+
+                .room-price {}
+            }
+        }
+    }
+}

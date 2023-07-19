@@ -1,0 +1,39 @@
+.container {
+  .register-title {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .regis-content {
+    label {
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+    input {
+      width: 100%;
+      height: 5rem;
+      padding-left: 1rem;
+      border-radius: 5px;
+    }
+    p {
+      color: red;
+    }
+  }
+  .regis-gender {
+    label {
+      font-weight: 800;
+      margin-right: 2rem;
+      margin-bottom: 1rem;
+    }
+    .gender-input {
+      label {
+        font-weight: 500;
+        margin-left: 0.2rem;
+      }
+    }
+  }
+  .submit-handle {
+    .btn-submit {
+      border-radius: 5px;
+    }
+  }
+}
